@@ -1,0 +1,25 @@
+// Place all the styles related to the partners controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#featured-partners {
+  margin: 40px;
+  /*border-radius: 10px;*/
+  background: darken(#F2F4F6, 5%);
+  ul {
+
+    padding: 20px;
+    margin-left: 0;
+    li {
+      list-style-type: none;
+      overflow: auto;
+      font-size: 16px;
+      line-height: 1.5;
+      img {
+        padding-right: 20px;
+        vertical-align: text-top;
+        float: left;
+      }
+    }
+  }
+}

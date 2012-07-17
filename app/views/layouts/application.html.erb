@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Seomarketing</title>
+  <%= yield :head %>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <div id="top">
+      <nav id="container-top">
+        <a href="/"><%= image_tag("seomarketing-logo.png", :alt => "SEOMarketing - get the results you want", :id => "logo") %></a>
+        <ul id="nav-top">
+          <li><%= link_to_unless_current 'How It Works', how_it_works_path do link_to 'How It Works', how_it_works_path, :class => "current" end %></li>
+          <li><%= link_to_unless_current 'FAQ', faq_path do link_to 'FAQ', faq_path, :class => "current" end %></li>
+          <li><%= link_to_unless_current 'Partners', partners_path do link_to 'Partners', partners_path, :class => "current" end %></li>
+          <li><%= link_to_unless_current 'About Us', about_path do link_to 'About Us', about_path, :class => "current" end%></li>
+          <li><%= link_to_unless_current 'SignUp', signup_path, :class => "nav-top-signup" do link_to 'SignUp', signup_path, :class => "signup-current" end %></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="container-main">
+      <div id="nav-right">
+        <div id="language-choice">TH | EN</div>
+      </div>
 
-<%= yield %>
+      <%= yield %>
+
+    </div>
+
+    <footer>
+      <ul id="nav-footer">
+        <li>&copy; Copyright 2012 SEOMarketing.co.th</li>
+        <li><%= link_to 'Privacy Policy', "privacy_policy"%></li>
+        <li><%= link_to 'Terms of Service', "terms_of_service"%></li>
+      </ul>
+      <div id="social-icons">
+        <a href="#" class="social-icon-facebook"></a>
+        <a href="#" class="social-icon-twitter"></a>
+      </div>
+    </footer>
+
 
 </body>
 </html>

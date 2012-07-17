@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Seomarketing::Application.load_tasks
+Seo::Application.load_tasks

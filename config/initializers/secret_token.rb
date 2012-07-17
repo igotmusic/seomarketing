@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Seomarketing::Application.config.secret_token = '7329d79f4cd75af9a5417ab2b3f0e5af7f45f91a4328a75ec4607b4856887f8f56e52efd1741adc326781f9d4b2074f5f8606b26c5073fbd6951204a094dbb70'
+Seo::Application.config.secret_token = '74d641fb5e2b20e1750e94a634e40c6285ed7a6d5d496c158e5373de1c70c7dd563db98212d1d50cb4a51cdb1d6127859d6c4bddcf6efd9807d7a47691bb70e4'

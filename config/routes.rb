@@ -1,4 +1,20 @@
-Seomarketing::Application.routes.draw do
+Seo::Application.routes.draw do
+  get "faq" => "faq#index"
+
+  get "terms_of_service" => "terms_of_service#index"
+
+  get "privacy_policy" => "privacy_policy#index"
+
+  get "signup" => "signup#index"
+
+  get "partners" => "partners#index"
+
+  get "how_it_works" => "how_it_works#index"
+
+  get "about" => "about#index"
+
+  get "home/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +64,7 @@ Seomarketing::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'home#index'
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,4 +1,4 @@
-Seomarketing::Application.configure do
+Seo::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -34,4 +34,5 @@ Seomarketing::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
 end

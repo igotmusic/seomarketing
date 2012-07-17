@@ -1,0 +1,104 @@
+// Place all the styles related to the how-it-works controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#how-it-works {
+  margin: 40px;
+  line-height: 1.5;
+  font-size: 16px;
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    li {
+      padding-bottom: 15px;
+      background-image: url("ok-green.png");
+      background-repeat: no-repeat;
+      background-position: 0px 0px;
+      padding-left: 34px;
+    }
+  }
+}
+
+#features-benefits {
+  margin-top: 30px;
+  .pay-for-result {
+    background: lighten(#F2F4F6, 3%) url("icon-pay-for-result.png") no-repeat 10px 5px;
+  }
+  .satisfaction-guaranteed {
+    background: lighten(#F2F4F6, 3%) url("icon-satisfaction-guaranteed.png") no-repeat 10px 5px;
+  }
+  .dedicated-seo-expert {
+    background: lighten(#F2F4F6, 3%) url("icon-dedicated-seo-expert.png") no-repeat 10px 5px;
+  }
+  .keyword-research {
+    background: lighten(#F2F4F6, 3%) url("icon-keyword-research.png") no-repeat 10px 5px;
+  }
+  .page-optimization {
+    background: lighten(#F2F4F6, 3%) url("icon-page-optimization.png") no-repeat 10px 5px;
+  }
+  .website-monitoring {
+    background: lighten(#F2F4F6, 3%) url("icon-website-monitoring.png") no-repeat 10px 5px;
+  }
+  .site-map-management {
+    background: lighten(#F2F4F6, 3%) url("icon-site-map-management.png") no-repeat 10px 5px;
+  }
+  .link-building {
+    background: lighten(#F2F4F6, 3%) url("icon-link-building.png") no-repeat 10px 5px;
+  }
+  .content-development {
+    background: lighten(#F2F4F6, 3%) url("icon-content-development.png") no-repeat 10px 5px;
+  }
+  .social-media-marketing {
+    background: lighten(#F2F4F6, 3%) url("icon-social-media-marketing.png") no-repeat 10px 5px;
+  }
+  .consistent-reporting {
+    background: lighten(#F2F4F6, 3%) url("icon-consistent-reporting.png") no-repeat 10px 5px;
+  }
+  .need-another {
+    background: lighten(#F2F4F6, 3%) url("icon-need-another.png") no-repeat 10px 5px;
+  }
+  .geo-targeted {
+    background: lighten(#F2F4F6, 3%) url("icon-geo-targeted.png") no-repeat 10px 5px;
+  }
+  ul {
+    li {
+      margin: 5px;
+      list-style-type: none;
+      display: inline-block;
+      width: 432px;
+      height: 120px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      vertical-align: top;
+      padding: 10px;
+      padding-left:63px;
+      h5 {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+#rank-before-you-pay {
+  margin: 40px;
+  overflow: auto;
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px lighten(#318bc3, 5%);
+  }
+  img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  hr {
+    margin-top: 20px;
+  }
+}
+#satisfaction-guarantee {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
