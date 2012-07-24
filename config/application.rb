@@ -31,7 +31,7 @@ module Seo
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
+    config.i18n.default_locale = :th
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
@@ -58,5 +58,20 @@ module Seo
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.action_mailer.smtp_settings = {
+        :address              => "smtp.gmail.com",
+        :port                 => 587,
+        :domain               => "mekoplum.com",
+        :user_name            => "chris@mekoplum.com",
+        :password             => "makeitbig!1776",
+        :authentication       => :plain,
+        :enable_starttls_auto => true
+    }
+
+    config.action_mailer.default_url_options = {
+        :host => "localhost:3000"
+    }
+
   end
 end

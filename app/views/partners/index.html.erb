@@ -1,11 +1,16 @@
 <% content_for :head do %>
-    <title>Partners of SEO Marketing</title>
+    <title><%= t('partners.title', :default=> 'Partners of SEO Marketing') %></title>
 <% end %>
 <div id="content-main" class="pages">
+
+  <!--
   <h1>Featured Partners</h1>
   <div id="featured-partners">
     <ul>
         <li><a href="http://www.siaminterhost.com"><%= image_tag("logo_siaminter.gif", :alt => "SiamInterhost - Thailand's leading web host provider", :id => "logo-featured-partner") %></a><strong>SiamInterhost</strong> - Thailand's leading web host provider which offers Web Hosting plans that include 24/7/365 support and 99.9% uptime. SiamInterhost is proud to offer SEOMarketing.co.th, accessible in the Control Panel, to all our customers.</li>
     </ul>
   </div>
+  -->
+
+  <%= t('partners.page') %>
 </div>

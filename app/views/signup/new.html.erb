@@ -1,0 +1,64 @@
+<% content_for :head do %>
+    <title><%= t('signup.title', :default=> 'Sign up for SEO Marketing') %></title>
+<% end %>
+
+<div id="content-main" class="pages">
+
+  <!--
+  <h1>SignUp</h1>
+  <div id="get-started">
+    <ul>
+      <li>Learn 5 things we can do today to improve your SEO results</li>
+      <li>Get specific keyword suggestions and pricing information from a dedicated SEO expert</li>
+      <li>Receive a free digital copy of our SEO Ranking Factors Report</li>
+    </ul>
+  </div>
+  -->
+  <%= t('signup.signup') %>
+
+  <% if flash[:notice] %>
+      <p class="notice"><%= flash[:notice] %></p>
+  <% end %>
+
+  <div id="contact-form" class="clearfix">
+
+    <!--
+    <h3>Get SEO Optimized!</h3>
+    <h4>Fill out the contact form below and we will get back to you very soon</h4>
+    <ul id="errors" class="">
+      <li id="info">There were some problems with your form submission:</li>
+    </ul>
+    <p id="success">Thanks for your message! We will get back to you ASAP!</p>
+    -->
+    <%= t('.form.call_to_action') %>
+
+<%= form_for @message, :url => signup_path do |form| %>
+    <fieldset class="fields">
+      <div class="field">
+        <%= form.label :name %>
+        <%= form.text_field :name, :id => "name", :placeholder => "John Doe", :required => "required", :autofocus => "autofocus"%>
+      </div>
+
+      <div class="field">
+        <%= form.label :email %>
+        <%= form.text_field :email, :type => "email", :id => "email", :placeholder => "johndoe@example.com", :required => "required" %>
+      </div>
+      <div class="field">
+        <%= form.label :phone %>
+        <%= form.text_field :phone, :placeholder => "0805555555", :required => "required" %>
+      </div>
+
+      <div class="field">
+        <%= form.label :website %>
+        <%= form.text_field :website, :id => "website", :placeholder => "your-domain-here.co.th", :'data-minlength' => "5", :required => "required" %>
+      </div>
+    </fieldset>
+
+    <fieldset class="actions">
+      <%= form.submit "Send", :id => 'submit-button'%>
+    </fieldset>
+    <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+<% end %>
+
+  </div>
+</div>

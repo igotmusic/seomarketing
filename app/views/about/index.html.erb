@@ -1,7 +1,9 @@
 <% content_for :head do %>
-    <title>About SEO Marketing</title>
+    <title><%= t('about.title', :default=> 'About SEO Marketing') %></title>
 <% end %>
 <div id="content-main" class="pages">
+
+  <!--
   <h1>About SEOMarketing</h1>
   <div class="odd">
     <p>SEOMarketing Co., Ltd. is full service Internet Marketing company that provides Pay-For-Results Search Engine Optimization (SEO) services to companies around the world. Our Marketing Operations Center is located in Bangkok, Thailand.</p>
@@ -15,6 +17,9 @@
     <h3>The Search Engines' Best Friend</h3>
     <p>We are committed to using search engine friendly marketing methods rooted in sound marketing principles. This helps insure that our customers keep, and even improve, their SEO rankings over time.</p>
   </div>
+  -->
+  <%= t('about.page') %>
+
 </div>
 
 

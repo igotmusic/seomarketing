@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SignupControllerTest < ActionController::TestCase
+class NotificationsMailerTest < ActionMailer::TestCase
   # test "the truth" do
   #   assert true
   # end

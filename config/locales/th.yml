@@ -1,0 +1,7 @@
+th:
+  hello: "สวัสดีชาวโลก"
+  activerecord:  # the rest is needed for the signup for to work
+      attributes:
+        product:
+          labels:
+            name: "thai name"

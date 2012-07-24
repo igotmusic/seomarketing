@@ -3,3 +3,8 @@
 
 en:
   hello: "Hello world"
+  activerecord:   # the rest is needed for the signup for to work
+      attributes:
+        message:
+          labels:
+            name: "name"

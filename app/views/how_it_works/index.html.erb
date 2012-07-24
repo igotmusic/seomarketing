@@ -1,23 +1,30 @@
 <% content_for :head do %>
-    <title>How It Works - SEO Marketing</title>
+    <title><%= t('how_it_works.title', :default=> 'How It Works - SEO Marketing') %></title>
 <% end %>
 <div id="content-main" class="pages">
+
+  <!--
   <h1>How It Works</h1>
   <div id="how-it-works">
       <ul>
         <li>We start with a Free SEO Marketing Analysis which includes our expert keyword suggestions.</li>
-        <li>Included with your free SEO report is a rate card for the top 30 organic search restults.</li>
+        <li>Included with your free SEO report is a rate card for the top 30 organic search results.</li>
         <li>When you are ready to begin, simply return the agreement and SEOMarketing begins to optimize your web site and market your business online.</li>
-        <li>Every 30 days you get a detailed Search Enginer Results Page (SERP) rankings report with the results. You pay only for the search engine rankings we helped you achieve.</li>
+        <li>Every 30 days you get a detailed Search Engine Results Page (SERP) rankings report with the results. You pay only for the search engine rankings we helped you achieve.</li>
       </ul>
     <hr>
   </div>
+  -->
+  <%= t('how_it_works.how_it_works') %>
+
   <div id="rank-before-you-pay">
     <h2>Rank Before You Pay</h2>
     <div id="satisfaction-guarantee"><%= image_tag("satisfaction-guarantee-w150-h150.png", :alt => "SEOMarketing - Satisfaction Guarantee") %> </div>
     <h6 style="text-align: center;margin-bottom: 40px;">100% Satisfaction Guaranteed</h6>
     <hr>
   </div>
+
+  <!--
   <h2>Features and Benefits</h2>
   <div id="features-benefits">
     <ul>
@@ -35,5 +42,9 @@
       <li class="geo-targeted"><h5>GEO Targeted</h5>We target your SEO campaigns to the country you want to market.</li>
     </ul>
   </div>
+  -->
+  <%= t('how_it_works.features_and_benefits') %>
+
 </div>
+
 
