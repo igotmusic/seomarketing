@@ -1,4 +1,4 @@
 CopycopterClient.configure do |config|
-  config.api_key = 'e1816e2c455e7b4888bb7a190fe0469232dc2437b41ce301'
-  config.host = 'nameless-beach-5601.herokuapp.com'
+  config.api_key = '6ce413876cd435d116bca6ae0cf0d238d7106395ae336d04'
+  config.host = 'mysterious-garden-7980.herokuapp.com'
 end

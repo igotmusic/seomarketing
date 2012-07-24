@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd6a08bd-28cb-4876-b790-8116baa42e5a" name="Default" comment="" />
+    <list default="true" id="bd6a08bd-28cb-4876-b790-8116baa42e5a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/copycopter.rb" afterPath="$PROJECT_DIR$/config/initializers/copycopter.rb" />
+    </list>
     <ignored path="seomarketing.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,19 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copycopter.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="copycopter.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/copycopter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="3" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.07853403">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="347" selection-end="347" vertical-scroll-proportion="0.19589552">
+            <state line="7" column="31" selection-start="347" selection-end="347" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -704,16 +706,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/copycopter.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+        <state line="7" column="31" selection-start="347" selection-end="347" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/copycopter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="347" selection-end="347" vertical-scroll-proportion="0.19589552">
+        <state line="3" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.07853403">
           <folding />
         </state>
       </provider>
