@@ -21,3 +21,9 @@ $(document).ready ->
 # Make the TH language link on the EN home page show as "/" instead of "/th/home"
 $(document).ready ->
   return $("a[href*=\"/th/home\"]").attr("href", "/")
+
+$(document).ready ->
+  return $("a[href*=\"/th/signup/new\"]").attr("href", "/th/signup")
+
+$(document).ready ->
+  return $("a[href*=\"/en/signup/new\"]").attr("href", "/en/signup")
