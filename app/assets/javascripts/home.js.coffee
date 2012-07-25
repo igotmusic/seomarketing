@@ -6,14 +6,14 @@
 $(document).ready ->
 
 # Make selected language "EN" not clickable and remove link
-  if window.location.href.indexOf("en") > -1
+  if window.location.href.indexOf("/en") > -1
     $("#th").removeClass "language-current"
     $("#en").addClass "language-current"
     $("#en").click (event) ->
       event.preventDefault()
 
   # Make selected language "TH" not clickable and remove link
-  if window.location.href.indexOf("th") > -1
+  if window.location.href.indexOf("/th") > -1
     $("#en").removeClass "language-current"
     $("#th").addClass "language-current"
     $("#th").click (event) ->

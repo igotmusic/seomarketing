@@ -36,7 +36,7 @@
       <file leaf-file-name="home.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="694" selection-end="694" vertical-scroll-proportion="0.42857143">
+            <state line="15" column="36" selection-start="602" selection-end="602" vertical-scroll-proportion="0.37815127">
               <folding />
             </state>
           </provider>
@@ -750,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="694" selection-end="694" vertical-scroll-proportion="0.42857143">
+        <state line="15" column="36" selection-start="602" selection-end="602" vertical-scroll-proportion="0.37815127">
           <folding />
         </state>
       </provider>
