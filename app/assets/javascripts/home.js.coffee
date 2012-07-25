@@ -11,7 +11,7 @@ $(document).ready ->
       event.preventDefault()
 
 # Make selected language "EN" not clickable and remove link
-$(document).ready ->
+
   if window.location.href.indexOf("en") > -1
     $("#en").addClass "language-current"
     $("#th").removeClass "language-current"
@@ -19,11 +19,11 @@ $(document).ready ->
       event.preventDefault()
 
 # Make the TH language link on the EN home page show as "/" instead of "/th/home"
-$(document).ready ->
+
   return $("a[href*=\"/th/home\"]").attr("href", "/")
 
-$(document).ready ->
+
   return $("a[href*=\"/th/signup/new\"]").attr("href", "/th/signup")
 
-$(document).ready ->
+
   return $("a[href*=\"/en/signup/new\"]").attr("href", "/en/signup")
